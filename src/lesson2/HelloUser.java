@@ -3,7 +3,7 @@ package lesson2;
 import java.util.Scanner;
 
 /**
- * This class is meant to enter user name from keypad.
+ * This class is meant to enter username from keypad.
  */
 public class HelloUser {
 
