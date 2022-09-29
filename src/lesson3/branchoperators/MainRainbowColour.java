@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.branchoperators;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.branchoperators;
 
 /**
  * Utilitarian class to print name of season by number of month
