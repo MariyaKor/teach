@@ -4,8 +4,6 @@ package lesson3;
  * Utilitarian class to print name of season by number of month
  */
 public class SeasonUtils {
-
-
     public static void defineSeasonSwitchCase(final int numberOfMonth) {
         switch (numberOfMonth) {
             case 1, 2, 12 -> System.out.println("winter");
