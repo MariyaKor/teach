@@ -16,7 +16,6 @@ public class SeasonUtils {
     }
 
     public static void defineSeasonIfElse(final int numberOfMonth) {
-
         if (numberOfMonth == 1 || numberOfMonth == 2 || numberOfMonth == 12) {
             System.out.println("winter");
         } else if (numberOfMonth == 3 || numberOfMonth == 4 || numberOfMonth == 5) {

@@ -29,8 +29,9 @@ public class MainTemperature {
             System.out.println("Нормально");
         } else if (temperature <= -20) {
             System.out.println("Холодно");
-        } else if (temperature > -5) {
+        } else {
             System.out.println("Тепло");
         }
+
     }
 }
