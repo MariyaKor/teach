@@ -32,6 +32,5 @@ public class MainTemperature {
         } else {
             System.out.println("Тепло");
         }
-
     }
 }
