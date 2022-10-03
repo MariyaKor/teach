@@ -56,7 +56,7 @@ public class Main {
         List<Integer> lst = new ArrayList<>(Arrays.asList(a));
         if (lst.contains(numb)) {
             lst.removeIf(elem -> elem.equals(numb));
-            System.out.println("final lst: " + lst);
+            System.out.println("final a: " + Arrays.toString(lst.toArray()));
         } else {
             System.out.println("Number isn't in the massive");
         }
