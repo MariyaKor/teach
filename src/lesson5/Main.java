@@ -30,13 +30,12 @@ public class Main {
         int[][][] array = {{{1, 2, 3}, {10, 20, 20}}, {{50, 60, 70}}};
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                for (int k = 0; k < array[j].length; k++) {
+                for (int k = 0; k < array[i][j].length; k++) {
                     array[i][j][k] = array[i][j][k] + numb;
-                    System.out.print("arr[" + i + "][" + j + "][" + k + "] = " + array[i][j][k] + "\t");
                 }
             }
-
         }
+        System.out.println(Arrays.deepToString(array));
     }
 
     /**
@@ -98,12 +97,8 @@ public class Main {
         System.out.print("task4:");
         int[][] array = {{2, 1, 3, 8}, {5, 6, 4, 7,}, {7, 9, 8, 10}};
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 1; j++) {
                 Arrays.sort(array[i]);
-            }
-            System.out.print("\n" + Arrays.toString(array[i]));
         }
-
+        System.out.println(Arrays.deepToString(array));
     }
-
 }
