@@ -2,13 +2,13 @@ package lesson7.task1;
 
 import java.math.BigDecimal;
 
-public class Restangle extends Figure {
+public class Rectangle extends Figure {
     private final  BigDecimal height;
     private final BigDecimal width;
     private static final BigDecimal MULTIPLIER = BigDecimal.valueOf(2);
 
 
-    public Restangle(int height, int width) {
+    public Rectangle(int height, int width) {
         this.height = BigDecimal.valueOf(height);
         this.width = BigDecimal.valueOf(width);
     }

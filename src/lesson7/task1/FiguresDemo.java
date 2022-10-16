@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 public class FiguresDemo {
 
     public static void main(String[] args) {
-        Figure rectangle = new Restangle(5, 8);
+        Figure rectangle = new Rectangle(5, 8);
         System.out.println("Perimeter of restangle = " + rectangle.getPerimeter() + ", Area = " + rectangle.getArea());
         Figure triangleOne = new Triangle(5, 6, 8);
         System.out.println("Perimeter of triangle = " + triangleOne.getPerimeter() + ", Area = " + triangleOne.getArea());
