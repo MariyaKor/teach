@@ -39,9 +39,9 @@ public class Phone {
     @Override
     public String toString() {
         return "Phone{" +
-                "number='" + number + '\'' +
-                ", model='" + model + '\'' +
-                ", weight=" + weight +
+                "number='" + this.number + '\'' +
+                ", model='" + this.model + '\'' +
+                ", weight=" + this.weight +
                 '}';
     }
 }
