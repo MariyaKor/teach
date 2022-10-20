@@ -27,12 +27,11 @@ public class Main {
         Vector vector3DSecond = new Vector3D(3, 6,8);
         System.out.println(vector3DSecond);
         service = new Vector3DServiceImpl();
-        System.out.println("VectorLength= " + service.calculateVectorLength(vector3DFirst));
-        System.out.println("ScalarProduct= " + service.calculateScalarProduct(vector3DFirst, vector3DSecond));
+        System.out.println("VectorLength = " + service.calculateVectorLength(vector3DFirst));
+        System.out.println("ScalarProduct = " + service.calculateScalarProduct(vector3DFirst, vector3DSecond));
         System.out.println(service.calculateSumOfVectors(vector3DFirst, vector3DSecond ));
         System.out.println(service.calculateDifferenceOfVectors(vector3DFirst, vector3DSecond));
         System.out.println("ArrayOfRandomVector 3D : " + Arrays.toString(service.getArrayOfRandomVectors(5)));
-
 
     }
 
