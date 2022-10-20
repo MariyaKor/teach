@@ -21,7 +21,8 @@ public class Main {
         System.out.println("ScalarProduct = " + service.calculateScalarProduct(vector2DFirst, vector2DSecond));
         System.out.println(service.calculateSumOfVectors(vector2DFirst, vector2DSecond ));
         System.out.println(service.calculateDifferenceOfVectors(vector2DFirst, vector2DSecond));
-        System.out.println("ArrayOfRandomVector 2D : " + Arrays.toString(service.getArrayOfRandomVectors(5)));
+        final int ARRAY_SIZE = 5;
+        System.out.println("ArrayOfRandomVector 2D : " + Arrays.toString(Vector2D.getArrayOfRandomVectors(ARRAY_SIZE)));
         Vector vector3DFirst = new Vector3D(3, 4, 1 );
         System.out.println(vector3DFirst);
         Vector vector3DSecond = new Vector3D(3, 6,8);
@@ -31,8 +32,7 @@ public class Main {
         System.out.println("ScalarProduct = " + service.calculateScalarProduct(vector3DFirst, vector3DSecond));
         System.out.println(service.calculateSumOfVectors(vector3DFirst, vector3DSecond ));
         System.out.println(service.calculateDifferenceOfVectors(vector3DFirst, vector3DSecond));
-        System.out.println("ArrayOfRandomVector 3D : " + Arrays.toString(service.getArrayOfRandomVectors(5)));
-
+        System.out.println("ArrayOfRandomVector 3D : " + Arrays.toString(Vector3D.getArrayOfRandomVectors(ARRAY_SIZE)));
     }
 
 }

@@ -14,6 +14,4 @@ public interface VectorService {
 
     String calculateDifferenceOfVectors(Vector vectorFirst, Vector vectorSecond);
 
-    Vector[] getArrayOfRandomVectors(final int arraySize);
-
 }

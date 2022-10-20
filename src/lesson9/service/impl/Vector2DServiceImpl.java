@@ -1,7 +1,7 @@
 package lesson9.service.impl;
 
 import lesson9.model.Vector;
-import lesson9.model.Vector2D;
+
 import lesson9.service.VectorService;
 
 import java.math.BigDecimal;
@@ -24,12 +24,5 @@ public class Vector2DServiceImpl implements VectorService {
         return "DifferenceOfVectors A and B = {" + vectorFirst.getX().subtract(vectorSecond.getX()) + "; " + vectorFirst.getY().subtract(vectorSecond.getY())+ "}";
     }
 
-    public Vector[] getArrayOfRandomVectors(final int arraySize) {
-        Vector[] vectors = new Vector[arraySize];
-        for (int i = 0; i < arraySize; i++) {
-            vectors[i] = new Vector2D(Math.random(), Math.random());
-        }
-        return vectors;
-    }
 
 }

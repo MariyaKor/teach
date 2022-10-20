@@ -27,11 +27,17 @@ public class Vector2D extends Vector {
     public BigDecimal getZ() {
         return Z;
     }
-
+    public static Vector[] getArrayOfRandomVectors(final int arraySize) {
+        Vector[] vectors = new Vector[arraySize];
+        for (int i = 0; i < arraySize; i++) {
+            vectors[i] = new Vector2D(Math.random(), Math.random());
+        }
+        return vectors;
+    }
 
     @Override
     public String toString() {
-        return DESCRIPTION_2D + "с координатами: " +
+        return DESCRIPTION_2D + " с координатами: " +
                 "x=" + this.x +
                 ", y=" + this.y;
     }

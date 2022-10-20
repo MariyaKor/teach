@@ -26,8 +26,16 @@ public class Vector3D extends Vector {
         return this.z;
     }
 
+    public static Vector[] getArrayOfRandomVectors(final int arraySize) {
+        Vector[] vectors = new Vector[arraySize];
+        for (int i = 0; i < arraySize; i++) {
+            vectors[i] = new Vector3D(Math.random(), Math.random(), Math.random());
+        }
+        return vectors;
+    }
+
     public String toString() {
-        return DESCRIPTION_3D + "с координатами: " +
+        return DESCRIPTION_3D + " с координатами: " +
                 "x=" + this.x +
                 ", y=" + this.y +
                 ", z=" + this.z;
