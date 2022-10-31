@@ -13,11 +13,10 @@ public class FileServiceImpl implements FileService {
 
     public List<String> getStringsFromFile() {
         List<String> lst;
-        Path path = Paths.get("C:\\Users\\HP\\Desktop\\TMS\\initialTestData.txt");
+        Path path = Paths.get("C:\\Users\\HP\\IdeaProjects\\teach\\src\\lesson12\\resources\\initialTestData.txt");//equals Path.of("C:\\Users\\HP\\Desktop\\TMS\\initialTestData.txt");
         try {
             lst = new ArrayList<>(Files.readAllLines(path));
-        } catch (
-                IOException e) {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
@@ -25,7 +24,7 @@ public class FileServiceImpl implements FileService {
     }
 
     public void writeValidStringsToFile(List<String> finalLst) {
-        Path path = Paths.get("C:\\Users\\HP\\Desktop\\TMS\\validDocNumbers.txt");
+        Path path = Paths.get("C:\\Users\\HP\\IdeaProjects\\teach\\src\\lesson12\\resources\\validDocNumbers.txt");
         try {
             Files.write(path, finalLst);
         } catch (IOException e) {
@@ -34,7 +33,7 @@ public class FileServiceImpl implements FileService {
     }
 
     public void writeNotValidStringsToFile(List<String> finalLst) {
-        Path path = Paths.get("C:\\Users\\HP\\Desktop\\TMS\\notValidNumbers.txt");
+        Path path = Paths.get("C:\\Users\\HP\\IdeaProjects\\teach\\src\\lesson12\\resources\\notValidNumbers.txt");
         try {
             Files.write(path, finalLst);
         } catch (IOException e) {
