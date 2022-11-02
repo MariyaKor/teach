@@ -1,0 +1,24 @@
+ssdd sfda gdsf avb
+ Non valid: document number doesn't equal 15
+docnum123456780
+ Valid ☺
+00098kjsadfdgdf12
+ Non valid: document number doesn't equal 15
+123234contract
+ Non valid: document number doesn't equal 15
+7774442345112
+ Non valid: document number doesn't equal 15
+134!5671.docnum
+ Non valid: document number doesn't start with docnum or contract
+docnum 12345671]hhg
+ Non valid: document number doesn't equal 15
+12BV45363444457898mbkug
+ Non valid: document number doesn't equal 15
+docnum 12345671
+ Non valid: document number has space
+asdsdfcssABCfrf
+ Non valid: document number doesn't start with docnum or contract
+docnum123456789
+ Valid ☺
+contract1232341
+ Valid ☺
