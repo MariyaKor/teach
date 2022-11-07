@@ -17,7 +17,7 @@ public class DateUtils {
     }
 
     public static LocalDate getNextTuesday() {
-        return LocalDate.of(2022, 11, 9).with(next(DayOfWeek.TUESDAY));
+        return LocalDate.now().with(next(DayOfWeek.TUESDAY));
     }
 
 }
