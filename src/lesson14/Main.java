@@ -27,9 +27,9 @@ public class Main {
         System.out.println(getReversedString(1, str));
     }
 
-    private static StringBuilder getReversedString(final int applyReverse, final StringBuilder str) {
+    private static StringBuilder getReversedString(final int applyReverse,  StringBuilder str) {
         if (applyReverse == 1) {
-            CustomService<StringBuilder> service = in -> str.reverse();
+            CustomService<StringBuilder> service = StringBuilder::reverse;
             return service.reverse(str);
         }
         return new StringBuilder("Reverse not allowed");
