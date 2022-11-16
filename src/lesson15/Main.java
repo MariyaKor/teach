@@ -29,7 +29,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        final List<Integer> initialList = List.of(9, 1, 27, 3, 4, 5, 6, 7, 7, 8, 9, 10, 10, 11, 12, 13, 14, 15, 16, 17, 12, 56, 79, 9); //getRandomSet(NUMBER_OF_ELEMENTS);
+        final List<Integer> initialList = List.of(9, 1, 27, 3, 4, 5, 6, 7, 7, 8, 9, 10, 10, 11, 12, 13, 14, 15, 16, 17, 12, 56, 79, 9);
         System.out.println("initialList" + initialList);
         System.out.println("1. w/o duplicates: " + removeDuplicates(initialList));
         System.out.println("2. evenNumbers in range 7 to 17: " + getEvenNumbersInRange(initialList));
